@@ -67,7 +67,7 @@ services:
     container_name: ora2pg
     volumes:
       - ./postgres_output_data:/data
-      - ./ora2pg/config/ora2pg.conf:/config/ora2pg.conf
+      - ./ora2pg.conf:/config/ora2pg.conf
     environment:
       - CONFIG_LOCATION=config/ora2pg.conf
 
