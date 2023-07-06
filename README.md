@@ -30,10 +30,3 @@ docker-compose up postgres_masked -d
 ### Data flow diagram
 
 ![data flow diagram](diagram.png)
-
-
-### Knowing problems
-
-- get rid of `last_update` columns in the cofiguration file
-- truncate shcema with recursive FKs
-- mask the `film.description` column
