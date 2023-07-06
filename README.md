@@ -1,6 +1,5 @@
 # tdk-ora2pg-demo
 
-
 ### Steps
 
 1. Set up the license key:
@@ -27,6 +26,10 @@ docker-compose run ora2pg
 ```
 docker-compose up postgres_masked -d
 ```
+
+### Data flow diagram
+
+![data flow diagram](diagram.png)
 
 
 ### Knowing problems
